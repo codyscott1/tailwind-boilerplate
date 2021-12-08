@@ -6,7 +6,8 @@
   "author": "codyscott1 <codywaukee@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tailwind-config-viewer -o"
+    "start": "tailwind-config-viewer -o",
+    "build": "tailwind-config-viewer export ./docs"
   },
   "devDependencies": {
     "tailwind-config-viewer": "^1.6.2",
