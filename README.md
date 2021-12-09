@@ -7,3 +7,9 @@ The config is still a work in progress and needs updates to fully match the star
 ## Preview
 
 `yarn; yarn start`
+
+## Build
+
+`yarn; yarn build`
+
+This will update the docs directory with a static version of the current preview. Github pages is serving that docs directory so pushing to main will update the build.
