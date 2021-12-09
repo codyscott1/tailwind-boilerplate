@@ -4,12 +4,16 @@ Based on the half helix [Shopify Starter Theme](https://www.figma.com/file/GY13f
 
 The config is still a work in progress and needs updates to fully match the starter theme. With tailwind-config-viewer I'm unsure if there is a way to display other default styles like the creation of buttons or form elements from a `buttons.css` or similar file.
 
+## Installation
+
+`yarn`
+
 ## Preview
 
-`yarn; yarn start`
+`yarn start`
 
 ## Build
 
-`yarn; yarn build`
+`yarn build`
 
 This will update the docs directory with a static version of the current preview. Github pages is serving that docs directory so pushing to main will update the build.
