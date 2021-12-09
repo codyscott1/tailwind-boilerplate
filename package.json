@@ -10,10 +10,10 @@
     "build": "tailwind-config-viewer export ./docs"
   },
   "devDependencies": {
-    "tailwind-config-viewer": "^1.6.2",
-    "@tailwindcss/typography": "^0.4.1"
+    "tailwind-config-viewer": "^1.6.2"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
     "tailwindcss": "^2.2.19"
   }
 }
