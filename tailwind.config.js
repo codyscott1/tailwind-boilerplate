@@ -1,5 +1,3 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
-
 const colors = {
   primary: "#A16D5F",
   secondary: "#788C94",
@@ -20,88 +18,55 @@ module.exports = {
   },
   theme: {
     fontSize: {
-      h1: [
-        "64px",
-        {
-          letterSpacing: "-2px",
-          lineHeight: "66px",
-        },
-      ],
-      h2: [
+      "heading-1": ["99px", { letterSpacing: "-2px", lineHeight: "66px" }],
+      "mobile-heading-1": [
         "48px",
-        {
-          letterSpacing: "-1px",
-          lineHeight: "52px",
-        },
+        { letterSpacing: "-1px", lineHeight: "50px" },
       ],
-      h3: [
-        "40px",
-        {
-          letterSpacing: "-1px",
-          lineHeight: "48px",
-        },
-      ],
-      h4: ["32px", "48px"],
-      h5: ["24px", "32px"],
-      h6: ["16px", "20.8px"],
-      "body-large": ["16px", "22px"],
-      body: ["14px", "20px"],
-      caption: ["12px", "18px"],
-      "util-l": [
-        "14px",
-        {
-          letterSpacing: "1px",
-          lineHeight: "14px",
-        },
-      ],
-      util: [
-        "12px",
-        {
-          letterSpacing: "1px",
-          lineHeight: "12px",
-        },
-      ],
-      "m-h1": [
-        "48px",
-        {
-          letterSpacing: "-1px",
-          lineHeight: "50px",
-        },
-      ],
-      "m-h2": [
+      "heading-2": ["48px", { letterSpacing: "-1px", lineHeight: "52px" }],
+      "mobile-heading-2": [
         "38px",
-        {
-          letterSpacing: "-1px",
-          lineHeight: "42px",
-        },
+        { letterSpacing: "-1px", lineHeight: "42px" },
       ],
-      "m-h3": [
+      "heading-3": ["40px", { letterSpacing: "-1px", lineHeight: "48px" }],
+      "mobile-heading-3": [
         "32px",
-        {
-          letterSpacing: "-1px",
-          lineHeight: "36px",
-        },
+        { letterSpacing: "-1px", lineHeight: "36px" },
       ],
-      "m-h4": ["24px", "32px"],
-      "m-h5": ["18px", "24px"],
-      "m-h6": ["14px", "19.6px"],
-      "m-body-large": ["14px", "20px"],
-      "m-body": ["12px", "20px"],
-      "m-caption": ["12px", "18px"],
-      "m-util-l": [
+      "heading-4": ["32px", { letterSpacing: "0px", lineHeight: "48px" }],
+      "mobile-heading-4": [
+        "24px",
+        { letterSpacing: "0px", lineHeight: "32px" },
+      ],
+      "heading-5": ["24px", { letterSpacing: "0px", lineHeight: "32px" }],
+      "mobile-heading-5": [
+        "18px",
+        { letterSpacing: "0px", lineHeight: "24px" },
+      ],
+      "heading-6": [
+        "16px",
+        { letterSpacing: "0px", lineHeight: "20.799999237060547px" },
+      ],
+      "mobile-heading-6": [
         "14px",
-        {
-          letterSpacing: "2px",
-          lineHeight: "14px",
-        },
+        { letterSpacing: "0px", lineHeight: "19.600000381469727px" },
       ],
-      "m-util": [
-        "12px",
-        {
-          letterSpacing: "1px",
-          lineHeight: "12px",
-        },
+      "body-large": ["16px", { letterSpacing: "0px", lineHeight: "22px" }],
+      "mobile-body-large": [
+        "14px",
+        { letterSpacing: "0px", lineHeight: "20px" },
       ],
+      body: ["14px", { letterSpacing: "0px", lineHeight: "20px" }],
+      "mobile-body": ["12px", { letterSpacing: "0px", lineHeight: "20px" }],
+      caption: ["12px", { letterSpacing: "0px", lineHeight: "18px" }],
+      "mobile-caption": ["12px", { letterSpacing: "0px", lineHeight: "18px" }],
+      "utility-large": ["14px", { letterSpacing: "1px", lineHeight: "14px" }],
+      "mobile-utility-large": [
+        "14px",
+        { letterSpacing: "2px", lineHeight: "14px" },
+      ],
+      utility: ["12px", { letterSpacing: "1px", lineHeight: "12px" }],
+      "mobile-utility": ["12px", { letterSpacing: "1px", lineHeight: "12px" }],
     },
     extend: {
       colors,
