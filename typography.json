@@ -1,13 +1,4 @@
 {
-  "purge": [
-    "./index.html",
-    "./src/**/*.{js,jsx,ts,tsx}"
-  ],
-  "mode": "jit",
-  "darkMode": false,
-  "variants": {
-    "extend": {}
-  },
   "theme": {
     "fontSize": {
       "heading-1": [
@@ -165,8 +156,5 @@
         }
       ]
     }
-  },
-  "plugins": [
-    null
-  ]
+  }
 }
