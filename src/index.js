@@ -2,7 +2,6 @@ const { getTypography } = require("./getTypographyDesigns");
 const Figma = require("figma-api");
 const dotenv = require("dotenv");
 const fs = require("fs");
-const { ...existingConfig } = require("../tailwind.config.js");
 
 dotenv.config({ path: ".env" });
 
