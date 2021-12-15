@@ -10,7 +10,7 @@ const start = async () => {
   const file = await getFigmaDesigns();
   const typography = getTypography(file);
 
-  overWriteExistingConfig(typography);
+  generateTypography(typography);
 };
 
 start();
@@ -23,12 +23,15 @@ async function getFigmaDesigns() {
   return await api.getFile(process.env.FIGMA_FILE);
 }
 
-const overWriteExistingConfig = (values) => {
-  const newConfig = Object.assign({}, existingConfig, { theme: values });
-  fs.writeFile("output.json", JSON.stringify(newConfig, null, 2), (err) => {
-    if (err) {
-      console.error(err);
-      return;
+const generateTypography = (values) => {
+  fs.writeFile(
+    "typography.json",
+    JSON.stringify({ theme: { fontSize: values } }, null, 2),
+    (err) => {
+      if (err) {
+        console.error(err);
+        return;
+      }
     }
-  });
+  );
 };
