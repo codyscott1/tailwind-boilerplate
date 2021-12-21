@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading-1 {
+    @apply text-mobile-heading-1 sm:text-heading-1;
+  }
+  .heading-2 {
+    @apply text-mobile-heading-2 sm:text-heading-2;
+  }
+  .heading-3 {
+    @apply text-mobile-heading-3 sm:text-heading-3;
+  }
+  .body-large {
+    @apply text-mobile-body-large sm:text-body-large;
+  }
+  .body {
+    @apply text-mobile-body sm:text-body;
+  }
+  .caption {
+    @apply text-mobile-caption sm:text-caption;
+  }
+  .utility-large {
+    @apply text-mobile-utility-large sm:text-utility-large;
+  }
+  .utility {
+    @apply text-mobile-utility sm:text-utility;
+  }
+}
