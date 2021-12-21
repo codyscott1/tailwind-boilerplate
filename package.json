@@ -6,6 +6,7 @@
   "author": "codyscott1 <codywaukee@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "typography": "npx run-func ./src/index.js typography",
     "start": "tailwind-config-viewer -o",
     "build": "tailwind-config-viewer export ./docs"
   },

@@ -5,15 +5,13 @@ const fs = require("fs");
 
 dotenv.config({ path: ".env" });
 
-const start = async () => {
+const typography = async () => {
   const file = await getFigmaDesigns();
   const { config, css } = getTypography(file);
 
   generateTypographyConfig(config);
   generateTypographyCSS(css);
 };
-
-start();
 
 async function getFigmaDesigns() {
   const api = new Figma.Api({
@@ -37,8 +35,7 @@ const generateTypographyConfig = (values) => {
 };
 
 const generateTypographyCSS = (values) => {
-  const output = 
-  `@tailwind base;
+  const output = `@tailwind base;
   @tailwind components;
   @tailwind utilities;
   
@@ -52,4 +49,8 @@ const generateTypographyCSS = (values) => {
       return;
     }
   });
+};
+
+module.exports = {
+  typography,
 };
