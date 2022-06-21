@@ -4,27 +4,39 @@
   
   @layer components {
     .heading-1 {
-	@apply text-mobile-heading-1 sm:text-heading-1
+	@apply text-mobile-heading-1 sm:text-heading-1;
+	font-size: clamp(2.875rem, 10.75vw, 5.375rem)
 }
 .heading-2 {
-	@apply text-mobile-heading-2 sm:text-heading-2
+	@apply text-mobile-heading-2 sm:text-heading-2;
+	font-size: clamp(2.5rem, 8vw, 4rem)
 }
 .heading-3 {
-	@apply text-mobile-heading-3 sm:text-heading-3
+	@apply text-mobile-heading-3 sm:text-heading-3;
+	font-size: clamp(2rem, 5.75vw, 2.875rem)
 }
-.body-large {
-	@apply text-mobile-body-large sm:text-body-large
+.heading-4 {
+	@apply text-mobile-heading-4 sm:text-heading-4;
+	font-size: clamp(1.625rem, 4.25vw, 2.125rem)
+}
+.heading-5 {
+	@apply text-mobile-heading-5 sm:text-heading-5;
+	font-size: clamp(1.25rem, 3vw, 1.5rem)
+}
+.heading-6 {
+	@apply text-mobile-heading-6 sm:text-heading-6;
+	font-size: clamp(1rem, 2.25vw, 1.125rem)
 }
 .body {
-	@apply text-mobile-body sm:text-body
+	@apply text-mobile-body sm:text-body;
+	font-size: clamp(0.875rem, 1.75vw, 0.875rem)
 }
 .caption {
-	@apply text-mobile-caption sm:text-caption
-}
-.utility-large {
-	@apply text-mobile-utility-large sm:text-utility-large
+	@apply text-mobile-caption sm:text-caption;
+	font-size: clamp(0.75rem, 1.5vw, 0.75rem)
 }
 .utility {
-	@apply text-mobile-utility sm:text-utility
+	@apply text-mobile-utility sm:text-utility;
+	font-size: clamp(0.75rem, 1.75vw, 0.875rem)
 }
 }

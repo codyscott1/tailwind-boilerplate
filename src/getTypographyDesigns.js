@@ -37,8 +37,10 @@ const figmaToCSS = (fontColumns) => {
     const secondClampValue = fontColumn.children[1].children[0].style;
 
     const blob = `${characters.toLowerCase().replace(" ", "-")}`;
-    const clamp = `font-size: clamp(${secondClampValue.fontSize}px, 4vw, ${style.fontSize}px)`;
-    return `.${blob} {\r\n\t@apply text-mobile-${blob} sm:text-${blob};\r\n\t${clamp}\r\n}`;
+    const clamp = `\r\n\tfont-size: clamp(${
+      secondClampValue.fontSize / 16
+    }rem, ${style.fontSize / 8}vw, ${style.fontSize / 16}rem)\r\n`;
+    return `.${blob} {\r\n\t@apply text-mobile-${blob} sm:text-${blob};${clamp}}`;
   });
 
   return styles.join("\r\n");

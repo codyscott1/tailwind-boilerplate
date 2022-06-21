@@ -2,94 +2,129 @@
   "theme": {
     "fontSize": {
       "heading-1": [
-        "54px",
-        "59.4px"
-      ],
-      "mobile-heading-1": [
-        "48px",
-        "52.8px"
-      ],
-      "heading-2": [
-        "36px",
-        "39.6px"
-      ],
-      "mobile-heading-2": [
-        "24px",
-        "28.8px"
-      ],
-      "heading-3": [
-        "24px",
-        "33.6px"
-      ],
-      "mobile-heading-3": [
-        "18px",
-        "25.2px"
-      ],
-      "body-large": [
-        "16px",
+        "86px",
         {
-          "letterSpacing": "1.6px",
-          "lineHeight": "19.2px"
+          "letterSpacing": "-3.44px",
+          "lineHeight": "79.12px"
         }
       ],
-      "mobile-body-large": [
-        "14px",
+      "mobile-heading-1": [
+        "46px",
         {
-          "letterSpacing": "1.4px",
-          "lineHeight": "19.6px"
+          "letterSpacing": "-1.38px",
+          "lineHeight": "42.32px"
+        }
+      ],
+      "heading-2": [
+        "64px",
+        {
+          "letterSpacing": "-2.56px",
+          "lineHeight": "62.72px"
+        }
+      ],
+      "mobile-heading-2": [
+        "40px",
+        {
+          "letterSpacing": "-1.6px",
+          "lineHeight": "39.2px"
+        }
+      ],
+      "heading-3": [
+        "46px",
+        {
+          "letterSpacing": "-0.92px",
+          "lineHeight": "44.16px"
+        }
+      ],
+      "mobile-heading-3": [
+        "32px",
+        {
+          "letterSpacing": "-0.64px",
+          "lineHeight": "30.72px"
+        }
+      ],
+      "heading-4": [
+        "34px",
+        {
+          "letterSpacing": "-0.68px",
+          "lineHeight": "32.64px"
+        }
+      ],
+      "mobile-heading-4": [
+        "26px",
+        {
+          "letterSpacing": "-0.52px",
+          "lineHeight": "24.96px"
+        }
+      ],
+      "heading-5": [
+        "24px",
+        {
+          "letterSpacing": "-0.48px",
+          "lineHeight": "28.8px"
+        }
+      ],
+      "mobile-heading-5": [
+        "20px",
+        {
+          "letterSpacing": "-0.6px",
+          "lineHeight": "24px"
+        }
+      ],
+      "heading-6": [
+        "18px",
+        {
+          "letterSpacing": "-0.72px",
+          "lineHeight": "23.4px"
+        }
+      ],
+      "mobile-heading-6": [
+        "16px",
+        {
+          "letterSpacing": "-0.32px",
+          "lineHeight": "20.8px"
         }
       ],
       "body": [
         "14px",
         {
-          "letterSpacing": "1.4px",
-          "lineHeight": "16.8px"
+          "letterSpacing": "-0.28px",
+          "lineHeight": "18.2px"
         }
       ],
       "mobile-body": [
-        "12px",
+        "14px",
         {
-          "letterSpacing": "1.2px",
-          "lineHeight": "16.8px"
+          "letterSpacing": "-0.28px",
+          "lineHeight": "18.2px"
         }
       ],
       "caption": [
         "12px",
         {
-          "letterSpacing": "1.2px",
-          "lineHeight": "14.4px"
+          "letterSpacing": "-0.12px",
+          "lineHeight": "15.6px"
         }
       ],
       "mobile-caption": [
         "12px",
-        "18px"
-      ],
-      "utility-large": [
-        "16px",
         {
-          "letterSpacing": "1.6px",
-          "lineHeight": "19.2px"
-        }
-      ],
-      "mobile-utility-large": [
-        "16px",
-        {
-          "letterSpacing": "1.6px",
-          "lineHeight": "19.2px"
+          "letterSpacing": "-0.12px",
+          "lineHeight": "16.8px"
         }
       ],
       "utility": [
-        "12px",
+        "14px",
         {
-          "letterSpacing": "1.2px",
-          "lineHeight": "14.4px"
+          "letterSpacing": "1.4px",
+          "lineHeight": "14px"
         }
       ],
       "mobile-utility": [
         "12px",
         {
-          "letterSpacing": "1.2px",
-          "lineHeight": "14.4px"
+          "letterSpacing": "1.32px",
+          "lineHeight": "12px"
         }
       ]
     }
