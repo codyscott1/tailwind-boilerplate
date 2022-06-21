@@ -33,9 +33,12 @@ const figmaToTailwindConfig = (fontColumns) => {
 const figmaToCSS = (fontColumns) => {
   const styles = fontColumns.map((fontColumn) => {
     const firstColumn = fontColumn.children[0];
-    const { characters } = firstColumn.children[0];
+    const { characters, style } = firstColumn.children[0];
+    const secondClampValue = fontColumn.children[1].children[0].style;
+
     const blob = `${characters.toLowerCase().replace(" ", "-")}`;
-    return `.${blob} {\r\n\t@apply text-mobile-${blob} sm:text-${blob}\r\n}`;
+    const clamp = `font-size: clamp(${secondClampValue.fontSize}px, 4vw, ${style.fontSize}px)`;
+    return `.${blob} {\r\n\t@apply text-mobile-${blob} sm:text-${blob};\r\n\t${clamp}\r\n}`;
   });
 
   return styles.join("\r\n");
